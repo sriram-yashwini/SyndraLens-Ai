@@ -129,3 +129,10 @@ Run evaluation using the commands supported by the project's evaluation script a
 - Evaluate performance on carefully governed, representative datasets.
 - Improve model robustness and error handling.
 - Enhance dashboard usability and regional data visualization.
+## Responsible Use and Limitations
+
+- The project uses synthetic clinical-style data for development and demonstration.
+- Model predictions and rule-based extraction may contain errors or omit important information.
+- Detected symptom patterns should be treated as exploratory signals, not confirmed disease outbreaks.
+- The system is not a medical diagnostic tool and must not be used to make treatment decisions.
+- Further testing and validation are required before considering real-world healthcare applications.
