@@ -1,0 +1,10 @@
+[server]
+# Maximum size of an uploaded file in MB (Streamlit's default is also 200)
+maxUploadSize = 200
+
+[theme]
+base = "light"
+primaryColor = "#0F766E"
+backgroundColor = "#EEF3F2"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0B2A30"

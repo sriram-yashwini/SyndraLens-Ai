@@ -1,0 +1,22 @@
+﻿# SyndraLens laptop-friendly configuration (small data, short prompt, small LoRA)
+seed: 42
+
+data:
+  processed_dir: data/processed_small_v3
+  n_gold: 600
+
+model:
+  base_model: Qwen/Qwen2.5-0.5B-Instruct
+  adapter_dir: models/syndralens-lora-small
+
+train:
+  epochs: 2
+  batch_size: 1
+  grad_accum: 4
+  lr: 2.0e-4
+  warmup_ratio: 0.05
+  lora_r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05
+
+

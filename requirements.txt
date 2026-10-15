@@ -1,0 +1,12 @@
+# --- core (rule extractor, generator, engine, early-radar need only pyyaml) ---
+pyyaml>=6.0
+# --- SLM training / inference ---
+torch>=2.1
+transformers>=4.44
+peft>=0.12
+accelerate>=0.33
+datasets>=2.20
+# --- serving --
+streamlit
+# --- dev ---
+pytest>=8.0
